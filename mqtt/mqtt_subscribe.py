@@ -94,8 +94,9 @@ def app_loop():
 
             # Craft a message to the cloud
             msg_formatted = json.dumps({
-                'deviceId': MQTT_CLIENT_ID + "-device",
-                'temperatureCelsius': temp,
+                'device_id': MQTT_CLIENT_ID + "-device",
+                'temperature': temp,
+                'units': UNITS,
                 'shenanigans': "none"
             })
 
@@ -105,7 +106,7 @@ def app_loop():
             # Loop every minute
             sleep(60)
     except KeyboardInterrupt:
-        print(" Twilio MQTT Demo for Programmable Wireless stopped")
+        print(" MQTT Demo 2 for Programmable Wireless stopped")
     except OSError:
         print("[ERROR] Cannot read sensor, check connection")
 
