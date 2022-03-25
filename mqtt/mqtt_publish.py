@@ -74,10 +74,10 @@ def app_loop():
 
             # Craft a message to the cloud
             msg_formatted = json.dumps({
-                'device_id': MQTT_CLIENT_ID + "-device",
-                'temperature': temp,
-                'units': 'celsius',
-                'shenanigans': "none"
+                "device_id": MQTT_CLIENT_ID + "-device",
+                "temperature": temp,
+                "units": "celsius",
+                "shenanigans": "none"
             })
 
             # Publish the message by MQTT
