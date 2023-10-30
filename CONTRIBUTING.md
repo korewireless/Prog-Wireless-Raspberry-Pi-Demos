@@ -8,6 +8,6 @@ Pull requests should be made against the `develop` branch only.
 
 ## Licenses
 
-`HT16K33` and `HT16K33Segment` classes © 2021, Tony Smith (@smittytone), used with permission. Licensed under the terms of the MIT license.
+`HT16K33` and `HT16K33Segment` classes © 2023, Tony Smith (@smittytone), used with permission. Licensed under the terms of the MIT license.
 
-All other code © 2022, Twilio. Licensed under the terms of the MIT license.
+All other code © 2022-23, KORE Wireless. Licensed under the terms of the MIT license.

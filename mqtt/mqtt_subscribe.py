@@ -1,5 +1,5 @@
 ##############################################
-# Twilio MQTT Demo for Programmable Wireless #
+# KORE MQTT Demo for Programmable Wireless   #
 ##############################################
 from time import sleep
 from sys import exit
